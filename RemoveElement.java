@@ -37,6 +37,9 @@ public class RemoveElement {
         else {int i=0;
            Node temp = head;
            Node temp2 = temp;
+           if(index == 0){
+               head = head.next;
+           }
             while(i < index){
                 temp2 = temp;
                 temp = temp.next;
