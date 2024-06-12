@@ -1,7 +1,5 @@
 package Recursion;
 
-import java.sql.SQLOutput;
-
 public class BasicRecursion {
     public void recursion(int n){
         System.out.println(n);
